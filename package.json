@@ -11,7 +11,7 @@
     "zip": "zip  -r `git branch | grep '\\* ' | cut -d ' ' -f 2`.zip . -x 'node_modules/*' -x '.git/*' -x 'dist/*' -x '.DS_Store'"
   },
   "dependencies": {
-    "vue": "^2.5.2",
+    "vue": "^2.7.14",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
