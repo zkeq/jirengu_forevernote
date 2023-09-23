@@ -80,6 +80,8 @@
         </a>
       </li>
     </ul>
+    <div>{{ count }}</div>
+    <button @click="addCount()">AddCount</button>
   </div>
 </template>
 
@@ -88,9 +90,15 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to Your Vue.js App',
+      count: 0,
     }
-  }
+  },
+  methods: {
+    addCount() {
+      this.count++;
+    }
+  },
 }
 </script>
 
