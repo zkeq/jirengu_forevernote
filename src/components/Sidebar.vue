@@ -17,6 +17,12 @@ import avatar from '@/components/Avatar'
 export default {
     components: {
       avatar
+    },
+    methods: {
+      // onLogout
+      onLogout() {
+        this.$router.push('/login')
+      }
     }
 }  
 
