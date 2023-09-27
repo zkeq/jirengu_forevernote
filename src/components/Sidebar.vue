@@ -21,6 +21,7 @@ export default {
     methods: {
       // onLogout
       onLogout() {
+        console.log(this.$route.params)
         this.$router.push('/login')
       }
     }

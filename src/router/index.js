@@ -36,6 +36,11 @@ export default new Router({
     {
       path: '/trash/:noteId',
       component: TrashDetail
+    },
+    {
+      // 会匹配所有路径
+      path: '/*',
+      component: HelloWorld
     }
   ]
 })

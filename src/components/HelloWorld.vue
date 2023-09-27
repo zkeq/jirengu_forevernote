@@ -99,6 +99,10 @@ export default {
       this.count++;
     }
   },
+  mounted() {
+    console.log('mounted');
+    console.log(this.$route.params.pathMatch)
+  }
 }
 </script>
 
