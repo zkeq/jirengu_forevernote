@@ -1,5 +1,5 @@
 <template>
-  <span :title="user.username">{{slug}}</span>
+  <span :title="username">{{slug}}</span>
 </template>
 
 <script>
@@ -20,6 +20,8 @@
       
       Auth.getInfo()
         .then(res => {
+          console.log('Avatar.vue')
+          console.log(res)
           if(res.isLogin) {
             this.username = res.data.username
           }
