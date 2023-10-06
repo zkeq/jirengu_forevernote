@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "element-ui": "^2.15.14",
+    "markdown-it": "^13.0.2",
     "vue": "^2.7.14",
     "vue-router": "^3.0.1"
   },
